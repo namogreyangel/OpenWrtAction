@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: openwrt_ipq40xx
+name: openwrt_ipq40xx2
 
 on:
   repository_dispatch:
@@ -22,7 +22,7 @@ on:
   #   - cron: 0 */8 * * *
 
 env:
-  REPO_URL: https://github.com/namogreyangel/openwrt/
+  REPO_URL: https://github.com/openwrt/openwrt/
   REPO_BRANCH: master
   FEEDS_CONF: feeds_config/custom.feeds.conf.default
   CONFIG_FILE: config/ipq40xx.config
