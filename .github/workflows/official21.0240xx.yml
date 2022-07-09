@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: officialipq40xxmaster
+name: official21.0240xx
 
 on:
   repository_dispatch:
